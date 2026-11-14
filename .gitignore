@@ -1,0 +1,27 @@
+# Segredos e certificados (LGPD) — nunca versionar
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.pem
+*.key
+*.cer
+certificados/
+# Saídas de testes e notas reais
+*.xml
+backend/resultado_*.json
+backend/historico.json
+backend/body.json
+backend/login*.json
+backend/payload.json
+backend/plantao.json
+# Documentos internos com dados de clientes (ficam só no PC)
+onde-parei*.md
+CONTEXTO-MEDFISCAL.md
+
+# Dependências e build
+node_modules/
+.expo/
+dist/
+*.log
